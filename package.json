@@ -1,0 +1,42 @@
+{
+  "name": "ems",
+  "version": "1.0.0",
+  "description": "Employee management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development nodemon src/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakdubey2624/EMS.git"
+  },
+  "keywords": [
+    "EMS",
+    "React-Redux",
+    "Hapi.js",
+    "Node.js",
+    "Knex.js",
+    "MySql"
+  ],
+  "author": "Deepak dwivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakdubey2624/EMS/issues"
+  },
+  "homepage": "https://github.com/deepakdubey2624/EMS#readme",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "hapi-auth-jwt": "^4.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "knex": "^0.16.3",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "nodemon": "^1.18.10"
+  }
+}

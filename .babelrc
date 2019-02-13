@@ -1,0 +1,9 @@
+{
+    "presets": [
+      ["@babel/preset-env", {
+        "targets": {
+          "node": "current" // points to latest node version  node = process.versions.node
+        }
+      }]
+    ]
+   }
